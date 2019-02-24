@@ -1,0 +1,43 @@
+---
+name: Home
+route: /
+order: -1
+sidebar: true
+---
+
+import Buttons from './';
+
+import { PropsTable, Playground } from 'docz';
+
+
+
+<Playground>
+
+    {
+        ()=> {
+            console.log(Buttons);
+            return <div>111</div>
+        }
+    }
+
+</Playground>
+
+
+
+
+# Button Component
+
+## Normal Button
+
+<Buttons>Hi</Buttons>
+
+## Large Button
+
+export const hello = 2222
+
+<Buttons size="large">{hello}</Buttons>
+
+
+# PROPS
+
+<PropsTable of={Buttons} />

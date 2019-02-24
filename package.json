@@ -1,0 +1,29 @@
+{
+  "name": "test-ts1",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/test-ts1.js",
+  "module": "dist/test-ts1.esm.js",
+  "unpkg": "dist/test-ts1.umd.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/test-ts1",
+  "scripts": {
+    "dev": "umi doc dev",
+    "build": "umi lib build"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0",
+    "umi": "^2.0.0",
+    "umi-plugin-library": "^1.0.1-0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/css-modules": "^1.0.0",
+    "antd": "^3.13.0",
+    "umi-plugin-library-test": "1.0.3"
+  }
+}
